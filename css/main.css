@@ -10,7 +10,7 @@ body {
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Worksans', sans-serif;
   font-weight: 400;
   color: #303044;
 }
@@ -34,20 +34,23 @@ b, strong, optgroup {
 
 h1 {
   margin: 25px 0;
-  font-size: 4.5em;
-  font-weight: 700;
+  font-size: 64px;
+  font-weight: bold; 
+  text-align: center;
+  ;
 }
 
 h2 {
   margin: 25px 0;
-  font-size: 3.5em;
+  font-size: 64px;
   font-weight: 200;
+  font-family: 'Montserrat', Arial, sans-serif;
 }
 
 h3 {
   margin: 25px 0;
-  font-size: 2.6em;
-  font-weight: 200;
+  font-size: 42px;
+  font-weight: 300;
 }
 
 h4 {
@@ -66,7 +69,7 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
   line-height: 1;
 }
 
@@ -196,7 +199,9 @@ button {
 }
 
 .chapo {
-  font-size: 1.6em;
+  font-size: 25px;
+  font-family: 'WorkSans', Arial, sans-serif;
+  font-weight: normal; 
 }
 
 .full-width {
@@ -249,14 +254,15 @@ button {
 }
 
 .header__title {
-  font-size: 5.4em;
+  font-size: 64px;
+  font-weight: bold;
   margin: 0;
 }
 
 .header__subtitle {
   margin: 0;
-  font-size: 3.2em;
-  font-weight: 100;
+  font-size: 42px;
+  font-weight: 200;
   text-shadow: 1px 1px 5px #000;
 }
 
@@ -273,7 +279,12 @@ button {
   display: block;
   padding: 10px;
   color: #fff;
+  font-family: 'Work Sans', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 18px; 
+
 }
+
 .nav-main__link:hover {
   text-decoration: none;
   color: #d86324;
@@ -299,12 +310,14 @@ button {
 
 .honey-pot-list {
   text-align: center;
+ 
 }
 
 .honey-pot {
   display: inline-block;
-  margin: 0 30px 35px 30px;
+  margin: 1 4px 7x 4px;
   text-align: center;
+  
 }
 
 .honey-pot__link {
@@ -327,18 +340,22 @@ button {
 
 .honey-pot__thumbnail img {
   display: block;
+  justify-content: space-evenly;
 }
 
 .honey-pot__title {
   margin: 0;
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 26px;
+  font-weight: 600;
+  font-family: 'Montserrat', Arial, sans-serif;
+
 }
 
 .honey-pot__subtitle {
   margin: 0;
-  font-size: 1.6em;
-  font-weight: 200;
+  font-size: 22px;
+  font-weight: 300;
+  font-family: 'Montserrat', Arial, sans-serif;
 }
 
 
@@ -378,15 +395,18 @@ button {
 
 .news__title {
   margin: 0 0 15px;
-  font-weight: bold;
-  font-size: 2em;
+  font-weight: 500;
+  font-size: 34px;
   line-height: 1.4;
+  font-family: 'Montserrat', Arial, sans-serif;
 }
 
 .news__text {
   margin: 0;
-  font-size: 1.4em;
+  font-size: 24px;
+  font-weight: normal;
   line-height: 1.4;
+  font-family: 'WorkSans', Arial, sans-serif;
 }
 
 .page-list .news {
@@ -449,14 +469,14 @@ button {
 
 .page-single__title {
   margin: 0;
-  font-size: 5.6em;
+  font-size: 56px;
   line-height: 1.4;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .page-single__subtitle {
   margin: 0;
-  font-size: 3.2em;
+  font-size: 32px;
   font-weight: 200;
 }
 
@@ -466,6 +486,7 @@ button {
 */
 .container.decouvrez-notre-librairie {
   text-align: center;
+  
 }
 
 /**
@@ -473,5 +494,8 @@ button {
 */
 .index-title {
   text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 64px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
